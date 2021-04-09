@@ -1,7 +1,6 @@
 # Projektseite zu ""
 
 von Frederik Peters und Rebecca Scholz
-
 Stormarnschule Ahrensburg
 
 Klasse 12b
