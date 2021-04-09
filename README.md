@@ -1,4 +1,4 @@
-# Projektseite zu ""
+# Projektseite zu "Pong Together!"
 
 von Frederik Peters und Rebecca Scholz                                                                                                                                            
 Stormarnschule Ahrensburg                                                                                                                                                        
@@ -17,6 +17,21 @@ Schuljahr 2020/2021
 [Schlusswort](#5)
 
 ## Vorwort<a name="1"></a>
+
+Unser Spiel *Pong Together!* ist das zweite Projekt, welches wir im Informatikunterricht programmiert haben. Bislang hatten wir nur Kenntnisse in der Programmierung mit Snap! und haben uns mit Greenfoot vertraut machen müssen. Hierfür haben wir das Greenfoot Buch genutzt und im Greenfoot Forum recherchiert. 
+
+*Pong Together!* ist ein Spiel, welches von zwei Spielern gleichzeitig und zusammen gespielt wird. Ziel ist es, den Ball so lang wie möglich hin und her zu spielen. Doch Vorsicht: Der Ball wird schneller! Um hier zu gewinnen müssen die Spieler gut zusammen agieren und schnell reagieren. *Pong Together!* ist eine Neuinterpretation des zeitlosen Klassikers *Pong*, bei dem die Spieler jedoch gegeneinander spielen. 
+
+Auf unserer Projektseite werden wir zunächst unser Spiel beschreiben und dann die einzelnen Funktionen und Zusammenhänge genauer erklären sowie erläutern.
+
+## Beschreibung<a name="2"></a>
+
+Wenn man das Spiel *Pong Togehter!* öffnet, so sieht man zunächst die Spielfläche mit den Spielern und dem Ball, welcher in der Mitte platziert ist. Betätigt man dann die Act-Methode, so erscheint oben in der Mitte der *Score* welcher anzeigt, wie viele *Fails* eingetreten sind, das heißt wie oft der Ball verfehlt wurde. Zu Beginn des Spiels steht der Fail-Score bei 0. 
+
+![Das Spiel]()
+
+Das Spiel ist für zwei Spieler programmiert, die gleichzeitig und zusammen spielen und versuchen müssen, den Ball so oft wie möglich hin und her zu passen, ohne ihn zu verpassen und somit einen Fail zu kassieren. 
+
 
 ## Schlusswort<a name="5"></a>
 
