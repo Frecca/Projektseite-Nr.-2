@@ -13,8 +13,8 @@ Schuljahr 2020/2021
 [](#3.1)
 
 
-[Herausforderungen](#4)                                                                                                                                                          
-[Schlusswort](#5)
+[4. Herausforderungen](#4)                                                                                                                                                          
+[5. Schlusswort](#5)
 
 ## Vorwort<a name="1"></a>
 
@@ -30,7 +30,7 @@ Wenn man das Spiel *Pong Togehter!* öffnet, so sieht man zunächst die Spielfl�
 
 ![Das Spiel]()
 
-Das Spiel ist für zwei Spieler programmiert, die gleichzeitig und zusammen spielen und versuchen müssen, den Ball so oft wie möglich hin und her zu passen, ohne ihn zu verpassen und somit einen Fail zu kassieren. 
+Das Spiel ist für zwei Spieler programmiert, die gleichzeitig und zusammen spielen und versuchen müssen, den Ball so oft wie möglich hin und her zu passen, ohne ihn zu verpassen und somit einen Fail zu kassieren. Die Steuerung der Spieler erfolgt zum einen über die Pfeiltasten und zum anderen über die Tasten *w* und *s*. 
 
 
 ## Schlusswort<a name="5"></a>
