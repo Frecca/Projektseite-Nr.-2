@@ -10,9 +10,10 @@ Schuljahr 2020/2021
 [1. Vorwort](#1)                                                                                                                                                                  
 [2. Beschreibung](#2)                                                                                                                                                            
 [3. Erläuterungen](#3)                                                                                                                                                            
-[](#3.1)
-
-
+[Der Court](#3.1)                                                                                                                                                               
+[Die Player](#3.2)                                                                                                                                                              
+[Der Ball](#3.3)                                                                                                                                                                
+[Der Scorekeeper](#3.4)                                                                                                                                                        
 [4. Herausforderungen](#4)                                                                                                                                                          
 [5. Schlusswort](#5)
 
@@ -34,14 +35,34 @@ Das Spiel ist für zwei Spieler programmiert, die gleichzeitig und zusammen spie
 
 ## Erläuterungen<a name="3"></a>
 
+### Der Court<a name="3.1"></a>
 
+### Die Player<a name="3.2"></a>
 
+#### Zeichnung und Größe
 
+#### Steuerung der Player
 
+### Der Ball<a name="3.3"></a>
+
+#### Zeichnung, Größe und Geschwindigkeit
+
+#### Ball berührt Player
+
+#### Ball berührt Wände
+
+#### Verlinkung zum Scorekeeper
+
+### Der Scorekeeper<a name="3.4"></a>
+
+#### Anzeige des Scores
+
+#### Fail-Counter und Erhöhung
 
 ## Herausforderungen<a name="4"></a>
 
 Die größte Herausforderung in der Programmierung bestand zunächst darin, dass wir mit Greenfoot unvertraut waren und die Einarbeitung in das Programm nicht so einfach war, was durch die Corona Situation und die damit verbundene Arbeit Zuhause erschwert wurde. Des Weiteren gab es öfter Probleme und Fehlermeldungen, deren Ursache oftmals nicht so leicht zu erkennen war und auch die Behebung dieser Fehler gestaltete sich auf Grund des neuen Programms und der mangelnden Erfahrungen schwierig. Wir mussten zunächst ein Verständnis dafür bekommen, wie die einzelnen Actor miteinander kommunizieren und welche Programmierungen für unsere Vorstellungen am Geeignetesten waren. Mit der Zeit wurde diese Herausforderung aber leichter. 
+
 Rückblickend betrachtet sind wir, auch wenn wir öfter an Stellen nicht weiter gekommen sind und Probleme hatten, stets voran gekommen und konnten somit unser Projekt stets weiter entwickeln.
 
 ## Schlusswort<a name="5"></a>
