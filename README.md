@@ -28,10 +28,21 @@ Auf unserer Projektseite werden wir zunächst unser Spiel beschreiben und dann d
 
 Wenn man das Spiel *Pong Togehter!* öffnet, so sieht man zunächst die Spielfläche mit den Spielern und dem Ball, welcher in der Mitte platziert ist. Betätigt man dann die Act-Methode, so erscheint oben in der Mitte der *Score* welcher anzeigt, wie viele *Fails* eingetreten sind, das heißt wie oft der Ball verfehlt wurde. Zu Beginn des Spiels steht der Fail-Score bei 0. 
 
-![Das Spiel]()
+![Das Spiel](https://github.com/Frecca/Projektblog-Nr.-2/blob/main/Startposition.png)
 
 Das Spiel ist für zwei Spieler programmiert, die gleichzeitig und zusammen spielen und versuchen müssen, den Ball so oft wie möglich hin und her zu passen, ohne ihn zu verpassen und somit einen Fail zu kassieren. Die Steuerung der Spieler erfolgt zum einen über die Pfeiltasten und zum anderen über die Tasten *w* und *s*. 
 
+## Erläuterungen<a name="3"></a>
+
+
+
+
+
+
+## Herausforderungen<a name="4"></a>
+
+Die größte Herausforderung in der Programmierung bestand zunächst darin, dass wir mit Greenfoot unvertraut waren und die Einarbeitung in das Programm nicht so einfach war, was durch die Corona Situation und die damit verbundene Arbeit Zuhause erschwert wurde. Des Weiteren gab es öfter Probleme und Fehlermeldungen, deren Ursache oftmals nicht so leicht zu erkennen war und auch die Behebung dieser Fehler gestaltete sich auf Grund des neuen Programms und der mangelnden Erfahrungen schwierig. Wir mussten zunächst ein Verständnis dafür bekommen, wie die einzelnen Actor miteinander kommunizieren und welche Programmierungen für unsere Vorstellungen am Geeignetesten waren. Mit der Zeit wurde diese Herausforderung aber leichter. 
+Rückblickend betrachtet sind wir, auch wenn wir öfter an Stellen nicht weiter gekommen sind und Probleme hatten, stets voran gekommen und konnten somit unser Projekt stets weiter entwickeln.
 
 ## Schlusswort<a name="5"></a>
 
