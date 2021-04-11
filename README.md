@@ -103,14 +103,29 @@ Wird der Boolean mit wahr beantwortet, so wird der Ball auf die Startposition zu
 
 ![Boolean wahr]()
 
-
 #### Verlinkung zum Scorekeeper
+
+Der Ball benötigt eine Verbindung zum ScoreKeeper, um diesen Nachrichten schicken zu können. Mit Hilfe des Courts und der folgenden Programmierung kann diese Verbindung hergestellt werden. 
+
+![Verbindung zum ScoreKeeper]()
+
+VERLINKUNG ZUM COURT
 
 ### Der Scorekeeper<a name="3.4"></a>
 
+Der ScoreKeeper reagiert auf die Nachrichten des Balls mit einer Erhöhung des Scores. Dieser wird nach der Betätigung der Act-Methode oben mittig auf dem Spielfeld angezeigt und zeigt somit den Spielern ihre aktuelle Fail-Score an. 
+
 #### Anzeige des Scores
 
+Um den ScoreKeeper anzuzeigen, benutzen wir einen *public void act* und *setImage*. In diesem Befehl definieren wir neben dem Namen auch die Größe sowie die Farbe. Damit zu Beginn der Score auf *0* steht, führen wir die Variable *score = 0* ein. 
+
+![Variable und Image]()
+
 #### Fail-Counter und Erhöhung
+
+Der ScoreKeeper erhält vom Ball die Nachricht mit dem Befehl *ScoreRight* oder *ScoreLeft*. Er reagiert auf diesen mit dem Befehl, den Score zu erhöhen. Dieser erhöht sich um die Zahl 1. 
+
+![Erhöhung des Fail Scores]()
 
 ## Herausforderungen<a name="4"></a>
 
