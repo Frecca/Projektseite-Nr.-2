@@ -93,21 +93,21 @@ Sobald der Ball einen der Player berührt, agieren diese miteinander und der Bal
 
 Was passiert, wenn der Ball die Wände berührt? Erreicht er die obere oder andere Kante des Courts, so prallt er auch hier nach dem Prinzip Einfallswinkel = Ausfallswinkel ab, die Geschwindigkeit erhöht sich jedoch nicht.
 
-![Abprall von Wand](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/10.png)
+![Abprall von Wand](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/15.png)
 
 Berührt der Ball jedoch eine der Wände hinter den Playern, so sieht die Programmierung anders und wesentlich komplexer aus. Die Berührung ist in unserem Spiel äquivalent zu einem *Fail*, da der Ball diese möglichst nicht berühren soll. Hier ist auch der ScoreKeeper, nachfolgend erläutert, relevant. Wird nun also eine der Wände berührt, so wird ein *Boolean* Befehl, also eine wahr oder falsch Frage, mit wahr beantwortet. Der Definitionsbereich ist mit der nachfolgenden Programmierung festgelegt und stellt den Bereich dar, in dem sich der Ball hinter den Playern und vor der Außenwand befindet:
 
-![Boolean](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/11.png)
+![Boolean](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/10.png)
 
 Wird der Boolean mit wahr beantwortet, so wird der Ball auf die Startposition zurückgesetzt, das Spiel für einen kurzen Moment pausiert und eine Nachricht an den ScoreKeeper gesendet. 
 
-![Boolean wahr](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/12.png)
+![Boolean wahr](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/11.png)
 
 #### Verlinkung zum Scorekeeper
 
 Der Ball benötigt eine Verbindung zum ScoreKeeper, um diesen Nachrichten schicken zu können. Mit Hilfe des Courts und der folgenden Programmierung kann diese Verbindung hergestellt werden. 
 
-![Verbindung zum ScoreKeeper](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/13.png)
+![Verbindung zum ScoreKeeper](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/12.png)
 
 VERLINKUNG ZUM COURT
 
@@ -119,13 +119,13 @@ Der ScoreKeeper reagiert auf die Nachrichten des Balls mit einer Erhöhung des S
 
 Um den ScoreKeeper anzuzeigen, benutzen wir einen *public void act* und *setImage*. In diesem Befehl definieren wir neben dem Namen auch die Größe sowie die Farbe. Damit zu Beginn der Score auf *0* steht, führen wir die Variable *score = 0* ein. 
 
-![Variable und Image](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/14.png)
+![Variable und Image](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/13.png)
 
 #### Fail-Counter und Erhöhung
 
 Der ScoreKeeper erhält vom Ball die Nachricht mit dem Befehl *ScoreRight* oder *ScoreLeft*. Er reagiert auf diesen mit dem Befehl, den Score zu erhöhen. Dieser erhöht sich um die Zahl 1. 
 
-![Erhöhung des Fail Scores]()
+![Erhöhung des Fail Scores](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/14.png)
 
 ## Herausforderungen<a name="4"></a>
 
