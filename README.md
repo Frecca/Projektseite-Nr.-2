@@ -76,38 +76,38 @@ Der Ball ist das Objekt, welches die Spieler hin und her passen müssen. Der Bal
 
 Mit der Öffnung des Programms zeichnet sich der Ball, so wie die Player, selbst. Auch hier haben wir die Größe definiert und auch die Ballgeschwindigkeit am Anfang festgelegt. Die Zeichnung des Balls erfolgt über den von uns definierten *void* *drawImage* und ist folgendermaßen programmiert:
 
-![Variablen]()
+![Variablen](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/6.png)
 
-![move speed]()
+![move speed](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/7.png)
 
-![Zeichnung des Balls]()
+![Zeichnung des Balls](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/8.png)
 
 #### Ball berührt Player
 
 Sobald der Ball einen der Player berührt, agieren diese miteinander und der Ball prallt von den Spielern ab. Seine Bewegungsrichtung erfolgt nach dem Prinzip Einfallswinkel = Ausfallswinkel. Die Geschwindigkeit erhöht sich jedes Mal:
 
-![Ball-Player]()
+![Ball-Player](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/9.png)
 
 
 #### Ball berührt Wände
 
 Was passiert, wenn der Ball die Wände berührt? Erreicht er die obere oder andere Kante des Courts, so prallt er auch hier nach dem Prinzip Einfallswinkel = Ausfallswinkel ab, die Geschwindigkeit erhöht sich jedoch nicht.
 
-![Abprall von Wand]()
+![Abprall von Wand](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/10.png)
 
 Berührt der Ball jedoch eine der Wände hinter den Playern, so sieht die Programmierung anders und wesentlich komplexer aus. Die Berührung ist in unserem Spiel äquivalent zu einem *Fail*, da der Ball diese möglichst nicht berühren soll. Hier ist auch der ScoreKeeper, nachfolgend erläutert, relevant. Wird nun also eine der Wände berührt, so wird ein *Boolean* Befehl, also eine wahr oder falsch Frage, mit wahr beantwortet. Der Definitionsbereich ist mit der nachfolgenden Programmierung festgelegt und stellt den Bereich dar, in dem sich der Ball hinter den Playern und vor der Außenwand befindet:
 
-![Boolean]()
+![Boolean](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/11.png)
 
 Wird der Boolean mit wahr beantwortet, so wird der Ball auf die Startposition zurückgesetzt, das Spiel für einen kurzen Moment pausiert und eine Nachricht an den ScoreKeeper gesendet. 
 
-![Boolean wahr]()
+![Boolean wahr](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/12.png)
 
 #### Verlinkung zum Scorekeeper
 
 Der Ball benötigt eine Verbindung zum ScoreKeeper, um diesen Nachrichten schicken zu können. Mit Hilfe des Courts und der folgenden Programmierung kann diese Verbindung hergestellt werden. 
 
-![Verbindung zum ScoreKeeper]()
+![Verbindung zum ScoreKeeper](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/13.png)
 
 VERLINKUNG ZUM COURT
 
@@ -119,7 +119,7 @@ Der ScoreKeeper reagiert auf die Nachrichten des Balls mit einer Erhöhung des S
 
 Um den ScoreKeeper anzuzeigen, benutzen wir einen *public void act* und *setImage*. In diesem Befehl definieren wir neben dem Namen auch die Größe sowie die Farbe. Damit zu Beginn der Score auf *0* steht, führen wir die Variable *score = 0* ein. 
 
-![Variable und Image]()
+![Variable und Image](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/14.png)
 
 #### Fail-Counter und Erhöhung
 
