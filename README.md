@@ -10,12 +10,14 @@ Schuljahr 2020/2021
 [1. Vorwort](#1)                                                                                                                                                                  
 [2. Beschreibung](#2)                                                                                                                                                            
 [3. Erläuterungen](#3)                                                                                                                                                            
-[3.1 Der Court](#3.1)                                                                                                                                                               
-[3.2 Die Player](#3.2)                                                                                                                                                              
-[3.3 Der Ball](#3.3)                                                                                                                                                                
-[3.4 Der Scorekeeper](#3.4)                                                                                                                                                        
+      [3.1 Der Court](#3.1)                                                                                                                                                               
+      [3.2 Die Player](#3.2)                                                                                                                                                              
+      [3.3 Der Ball](#3.3)                                                                                                                                                                
+      [3.4 Der Scorekeeper](#3.4)                                                                                                                                                        
 [4. Herausforderungen](#4)                                                                                                                                                          
 [5. Schlusswort](#5)
+
+
 
 ## Vorwort<a name="1"></a>
 
@@ -25,6 +27,8 @@ Unser Spiel *Pong Together!* ist das zweite Projekt, welches wir im Informatikun
 
 Auf unserer Projektseite werden wir zunächst unser Spiel beschreiben und dann die einzelnen Funktionen und Zusammenhänge genauer erklären sowie erläutern.
 
+
+
 ## Beschreibung<a name="2"></a>
 
 Wenn man das Spiel *Pong Togehter!* öffnet, so sieht man zunächst die Spielfläche mit den Spielern und dem Ball, welcher in der Mitte platziert ist. Betätigt man dann die Act-Methode, so erscheint oben in der Mitte der *Score* welcher anzeigt, wie viele *Fails* eingetreten sind, das heißt wie oft der Ball verfehlt wurde. Zu Beginn des Spiels steht der Fail-Score bei 0. 
@@ -33,7 +37,10 @@ Wenn man das Spiel *Pong Togehter!* öffnet, so sieht man zunächst die Spielfl�
 
 Das Spiel ist für zwei Spieler programmiert, die gleichzeitig und zusammen spielen und versuchen müssen, den Ball so oft wie möglich hin und her zu passen, ohne ihn zu verpassen und somit einen Fail zu kassieren. Die Steuerung der Spieler erfolgt zum einen über die Pfeiltasten und zum anderen über die Tasten *w* und *s*. 
 
+
+
 ## Erläuterungen<a name="3"></a>
+
 
 ### Der Court<a name="3.1"></a>
 
@@ -46,6 +53,8 @@ Zudem wird auch hier die Verbindung vom Ball zum ScoreKeeper hergestellt und es 
 Hier werden die einzelnen Objekte verortet und die Geschwindigkeit eingestellt:
 
 ![Festlegung der Startvoraussetzungen](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/2.png)
+
+
 
 ### Die Player<a name="3.2"></a>
 
@@ -88,7 +97,6 @@ Sobald der Ball einen der Player berührt, agieren diese miteinander und der Bal
 
 ![Ball-Player](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/9.png)
 
-
 #### Ball berührt Wände
 
 Was passiert, wenn der Ball die Wände berührt? Erreicht er die obere oder andere Kante des Courts, so prallt er auch hier nach dem Prinzip Einfallswinkel = Ausfallswinkel ab, die Geschwindigkeit erhöht sich jedoch nicht.
@@ -109,6 +117,8 @@ Der Ball benötigt eine Verbindung zum ScoreKeeper, um diesen Nachrichten schick
 
 ![Verbindung zum ScoreKeeper](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/12.png)
 
+
+
 ### Der Scorekeeper<a name="3.4"></a>
 
 Der ScoreKeeper reagiert auf die Nachrichten des Balls mit einer Erhöhung des Scores. Dieser wird nach der Betätigung der Act-Methode oben mittig auf dem Spielfeld angezeigt und zeigt somit den Spielern ihre aktuelle Fail-Score an. 
@@ -125,11 +135,15 @@ Der ScoreKeeper erhält vom Ball die Nachricht mit dem Befehl *ScoreRight* oder 
 
 ![Erhöhung des Fail Scores](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/14.png)
 
+
+
 ## Herausforderungen<a name="4"></a>
 
 Die größte Herausforderung in der Programmierung bestand zunächst darin, dass wir mit Greenfoot unvertraut waren und die Einarbeitung in das Programm nicht so einfach war, was durch die Corona Situation und die damit verbundene Arbeit Zuhause erschwert wurde. Des Weiteren gab es öfter Probleme und Fehlermeldungen, deren Ursache oftmals nicht so leicht zu erkennen war und auch die Behebung dieser Fehler gestaltete sich auf Grund des neuen Programms und der mangelnden Erfahrungen schwierig. Wir mussten zunächst ein Verständnis dafür bekommen, wie die einzelnen Actor miteinander kommunizieren und welche Programmierungen für unsere Vorstellungen am Geeignetesten waren. Mit der Zeit wurde diese Herausforderung aber leichter. 
 
 Rückblickend betrachtet sind wir, auch wenn wir öfter an Stellen nicht weiter gekommen sind und Probleme hatten, stets voran gekommen und konnten somit unser Projekt stets weiter entwickeln.
+
+
 
 ## Schlusswort<a name="5"></a>
 
