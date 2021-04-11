@@ -37,11 +37,36 @@ Das Spiel ist für zwei Spieler programmiert, die gleichzeitig und zusammen spie
 
 ### Der Court<a name="3.1"></a>
 
+Der Court ist unser Spielfeld. In ihm legen wir die Größe des Spielfeldes fest und definieren, wo sich alle Actor, der Ball und der Score befinden. Dies erfolgt mittels Koordinatenangaben und *add Object*. 
+Des Weiteren haben wir hier die Grundgeschwindigkeit des Programms festgelegt. 
+Zudem wird auch hier die Verbindung vom Ball zum ScoreKeeper hergestellt und es wird definiert, über welche Tasten sich die einzelnen Spieler steuern lassen. 
+
+![Definition der Objekte](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/1.png)
+
+Hier werden die einzelnen Objekte verortet und die Geschwindigkeit eingestellt:
+
+![Festlegung der Startvoraussetzungen](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/2.png)
+
 ### Die Player<a name="3.2"></a>
+
+Die Player sind die Spieler unseres Programms. Jeder von ihnen kann aktiv gesteuert werden und bewegt sich vertikal in einer Ebene auf dem Spielfeld. Um diese in der Programmierung differenzieren zu können, heißt der eine Player *PlayerBlue* und der andere *PlayerRed*. Durch ihre Steuerung muss der Ball hin und her gespielt werden. 
 
 #### Zeichnung und Größe
 
+Sobald sich das Programm öffnet, zeichnen sich die Player selbst. Der Befehl hierfür ist der von uns definierte *void* *drawImage*. Zudem haben wir die Größe der einzelnen Player festgelegt. 
+
+Dies erfolgt mittels der folgenden Programmierung: 
+
+![Zeichnung der Player](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/3.png)
+
 #### Steuerung der Player
+
+Die Steuerung der Player erfolgt über die Tasten *up* und *down* sowie *w* und *s*. Da wir nur eine Player Klasse erstellt haben, wird die Bewegung der Spieler und deren Tastenkombination mittels der Strings *upkey* und *downkey* festgelegt. Im Court ist definiert, mit welchen Tasten welcher Player gesteuert wird. 
+Über einen *public void act* definiere wird, wie sich die *y-Koordinate* der Spieler ändert, sodass sie sich vertikal bewegen. 
+
+![Strings](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/4.png)
+
+![Steuerung](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/5.png)
 
 ### Der Ball<a name="3.3"></a>
 
