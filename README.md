@@ -70,11 +70,39 @@ Die Steuerung der Player erfolgt über die Tasten *up* und *down* sowie *w* und 
 
 ### Der Ball<a name="3.3"></a>
 
+Der Ball ist das Objekt, welches die Spieler hin und her passen müssen. Der Ball bewegt sich zu Beginn des Spiels und nach dem Reset zufällig in eine Richtung. Seine Geschwindigkeit erhöht sich mit jeder Spielerberührung. 
+
 #### Zeichnung, Größe und Geschwindigkeit
+
+Mit der Öffnung des Programms zeichnet sich der Ball, so wie die Player, selbst. Auch hier haben wir die Größe definiert und auch die Ballgeschwindigkeit am Anfang festgelegt. Die Zeichnung des Balls erfolgt über den von uns definierten *void* *drawImage* und ist folgendermaßen programmiert:
+
+![Variablen]()
+
+![move speed]()
+
+![Zeichnung des Balls]()
 
 #### Ball berührt Player
 
+Sobald der Ball einen der Player berührt, agieren diese miteinander und der Ball prallt von den Spielern ab. Seine Bewegungsrichtung erfolgt nach dem Prinzip Einfallswinkel = Ausfallswinkel. Die Geschwindigkeit erhöht sich jedes Mal:
+
+![Ball-Player]()
+
+
 #### Ball berührt Wände
+
+Was passiert, wenn der Ball die Wände berührt? Erreicht er die obere oder andere Kante des Courts, so prallt er auch hier nach dem Prinzip Einfallswinkel = Ausfallswinkel ab, die Geschwindigkeit erhöht sich jedoch nicht.
+
+![Abprall von Wand]()
+
+Berührt der Ball jedoch eine der Wände hinter den Playern, so sieht die Programmierung anders und wesentlich komplexer aus. Die Berührung ist in unserem Spiel äquivalent zu einem *Fail*, da der Ball diese möglichst nicht berühren soll. Hier ist auch der ScoreKeeper, nachfolgend erläutert, relevant. Wird nun also eine der Wände berührt, so wird ein *Boolean* Befehl, also eine wahr oder falsch Frage, mit wahr beantwortet. Der Definitionsbereich ist mit der nachfolgenden Programmierung festgelegt und stellt den Bereich dar, in dem sich der Ball hinter den Playern und vor der Außenwand befindet:
+
+![Boolean]()
+
+Wird der Boolean mit wahr beantwortet, so wird der Ball auf die Startposition zurückgesetzt, das Spiel für einen kurzen Moment pausiert und eine Nachricht an den ScoreKeeper gesendet. 
+
+![Boolean wahr]()
+
 
 #### Verlinkung zum Scorekeeper
 
