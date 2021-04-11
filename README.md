@@ -105,11 +105,9 @@ Wird der Boolean mit wahr beantwortet, so wird der Ball auf die Startposition zu
 
 #### Verlinkung zum Scorekeeper
 
-Der Ball benötigt eine Verbindung zum ScoreKeeper, um diesen Nachrichten schicken zu können. Mit Hilfe des Courts und der folgenden Programmierung kann diese Verbindung hergestellt werden. 
+Der Ball benötigt eine Verbindung zum ScoreKeeper, um diesen Nachrichten schicken zu können. Mit Hilfe des [Courts](#3.1) und der folgenden Programmierung kann diese Verbindung hergestellt werden. 
 
 ![Verbindung zum ScoreKeeper](https://github.com/Frecca/Projektseite-Nr.-2/blob/main/12.png)
-
-VERLINKUNG ZUM COURT
 
 ### Der Scorekeeper<a name="3.4"></a>
 
